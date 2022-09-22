@@ -19,7 +19,7 @@ module.exports = {
       remotes: {
       },
       exposes: {
-        "./core": "./components/coreComponent",
+        "./coreComponent": "./components/coreComponent",
       },
     };
     config.cache = false;

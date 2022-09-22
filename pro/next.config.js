@@ -19,7 +19,7 @@ module.exports = {
       remotes: {
       },
       exposes: {
-        "./pro": "./components/proComponent",
+        "./proComponent": "./components/proComponent",
       },
     };
     config.cache = false;
