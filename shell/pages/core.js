@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic'
 
 const RemoteCore = dynamic(
-  () => import('core/mario'),
+  () => import('core/core'),
   { ssr: false }
 )
 

@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import styles from '../styles/Mario.module.css'
 
-const Mario = () => {
+const coreComponent = () => {
   return (
     <main className={styles.main}>
       <Image 
@@ -19,4 +19,4 @@ const Mario = () => {
   )
 }
 
-export default Mario
+export default coreComponent

@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import styles from '../styles/Luigi.module.css'
 
-const Luigi = () => {
+const proComponent = () => {
   return (
     <main className={styles.main}>
       <Image 
@@ -19,4 +19,4 @@ const Luigi = () => {
   )
 }
 
-export default Luigi
+export default proComponent

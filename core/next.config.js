@@ -19,7 +19,7 @@ module.exports = {
       remotes: {
       },
       exposes: {
-        "./mario": "./components/mario",
+        "./core": "./components/coreComponent",
       },
     };
     config.cache = false;
