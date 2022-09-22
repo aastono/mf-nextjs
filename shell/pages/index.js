@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        Hello! This content is hosted locally.
+        Hello! This is the shell container for both core and pro.
       </main>
     </div>
   )
