@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import coreComponent from '../components/coreComponent'
+import CoreComponent from '../components/coreComponent'
 import styles from '../styles/Home.module.css'
 
 
@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <coreComponent />
+      <CoreComponent />
     </div>
   )
 }

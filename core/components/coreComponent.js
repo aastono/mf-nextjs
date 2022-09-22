@@ -1,4 +1,4 @@
-const coreComponent = () => {
+const CoreComponent = () => {
   return (
     <main>
       I am core!
@@ -6,4 +6,4 @@ const coreComponent = () => {
   )
 }
 
-export default coreComponent
+export default CoreComponent

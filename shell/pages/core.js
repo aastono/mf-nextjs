@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic'
 
 const RemoteCore = dynamic(
-  () => import('core/core'),
+  () => import('core/coreComponent'),
   { ssr: false }
 )
 

@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic'
 
 const RemotePro = dynamic(
-  () => import("pro/pro"),
+  () => import("pro/proComponent"),
   { ssr: false }
 )
 

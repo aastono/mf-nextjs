@@ -1,4 +1,4 @@
-const proComponent = () => {
+const ProComponent = () => {
   return (
     <main>
       I am pro!
@@ -6,4 +6,4 @@ const proComponent = () => {
   )
 }
 
-export default proComponent
+export default ProComponent
