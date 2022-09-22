@@ -1,10 +1,10 @@
 import dynamic from 'next/dynamic'
 
-const RemoteLuigi = dynamic(
-  () => import("app2/luigi"),
+const RemotePro = dynamic(
+  () => import("pro/luigi"),
   { ssr: false }
 )
 
-const App2 = () => (<RemoteLuigi />)
+const pro = () => (<RemotePro />)
 
-export default App2
+export default pro

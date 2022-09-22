@@ -8,8 +8,8 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <script src="https://mf-app1.vercel.app/_next/static/runtime/app1RemoteEntry.js" />
-        <script src="https://mf-app2.vercel.app/_next/static/runtime/app2RemoteEntry.js" />
+        <script src="https://mf-core.vercel.app/_next/static/runtime/coreRemoteEntry.js" />
+        <script src="https://mf-pro.vercel.app/_next/static/runtime/proRemoteEntry.js" />
         <Head />
         <body>
           <Main />

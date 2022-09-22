@@ -14,7 +14,7 @@ const Mario = () => {
       <h1 className={styles.title}>
         G'day! I'm Mario, a microfrontend.
       </h1>
-      <span>I'm hosted at <a target="_blank" href="https://mf-app1.vercel.app">https://mf-app1.vercel.app</a></span>
+      <span>I'm hosted at <a target="_blank" href="https://mf-core.vercel.app">https://mf-core.vercel.app</a></span>
     </main>
   )
 }

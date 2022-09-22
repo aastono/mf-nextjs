@@ -15,8 +15,8 @@ module.exports = {
         name: "shell",
       },
       remotes: {
-        app1: "app1",
-        app2: "app2", 
+        core: "core",
+        pro: "pro", 
       },
       exposes: {
       },

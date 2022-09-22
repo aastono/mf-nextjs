@@ -10,12 +10,12 @@ module.exports = {
     const { isServer } = options;
     const mfConf = {
       mergeRuntime: true, //experimental
-      name: "app1",
+      name: "core",
       library: {
         type: config.output.libraryTarget,
-        name: "app1",
+        name: "core",
       },
-      filename: "static/runtime/app1RemoteEntry.js",
+      filename: "static/runtime/coreRemoteEntry.js",
       remotes: {
       },
       exposes: {
@@ -25,7 +25,7 @@ module.exports = {
     config.cache = false;
     withModuleFederation(config, options, mfConf);
     if (!isServer) {
-      config.output.publicPath = "https://mf-app1.vercel.app/_next/";
+      config.output.publicPath = "https://mf-core.vercel.app/_next/";
     }
 
     return config;

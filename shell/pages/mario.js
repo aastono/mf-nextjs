@@ -1,10 +1,10 @@
 import dynamic from 'next/dynamic'
 
-const RemoteMario = dynamic(
-  () => import('app1/mario'),
+const RemoteCore = dynamic(
+  () => import('core/mario'),
   { ssr: false }
 )
 
-const App1 = () => (<RemoteMario />)
+const core = () => (<RemoteCore />)
 
-export default App1
+export default core

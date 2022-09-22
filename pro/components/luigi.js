@@ -14,7 +14,7 @@ const Luigi = () => {
       <h1 className={styles.title}>
         G'day! I'm Luigi, a microfrontend.
       </h1>
-      <span>I'm hosted at <a target="_blank" href="https://mf-app2.vercel.app">https://mf-app2.vercel.app</a></span>
+      <span>I'm hosted at <a target="_blank" href="https://mf-pro.vercel.app">https://mf-pro.vercel.app</a></span>
     </main>
   )
 }

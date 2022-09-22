@@ -1,10 +1,10 @@
 {
   "private": true,
   "scripts": {
-    "start": "concurrently \"cd app1; yarn dev \" \"cd app2; yarn dev\" \"cd shell; yarn dev \"",
-    "build": "concurrently \"cd app1; yarn build \" \"cd app2; yarn build\" \"cd shell; yarn build \"",
-    "serve": "concurrently \"cd app1; yarn start \" \"cd app2; yarn start\" \"cd shell; yarn start \"",
-    "postinstall": "concurrently \"cd app1; yarn\" \"cd app2; yarn\" \"cd shell; yarn\""
+    "start": "concurrently \"cd core; yarn dev \" \"cd pro; yarn dev\" \"cd shell; yarn dev \"",
+    "build": "concurrently \"cd core; yarn build \" \"cd pro; yarn build\" \"cd shell; yarn build \"",
+    "serve": "concurrently \"cd core; yarn start \" \"cd pro; yarn start\" \"cd shell; yarn start \"",
+    "postinstall": "concurrently \"cd core; yarn\" \"cd pro; yarn\" \"cd shell; yarn\""
   },
   "dependencies": {
     "concurrently": "^5.2.0"
