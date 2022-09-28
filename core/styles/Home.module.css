@@ -1,4 +1,4 @@
-.container {
+main {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -6,11 +6,4 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
 }
