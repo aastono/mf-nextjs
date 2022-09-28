@@ -2,9 +2,11 @@ import styles from '../styles/Home.module.css'
 
 const CoreComponent = () => {
   return (
-    <main className={styles.main}>
-      I am core!
-    </main>
+    <div className={styles.container}>
+      <main className={styles.main}>
+        I am core!
+      </main>
+    </div>
   )
 }
 

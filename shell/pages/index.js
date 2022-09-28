@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Microfrontends Demo</title>
+        <title>Microfrontend at Vinted</title>
         <meta name="description" content="Demo for Microfrontends using Module Federation" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
