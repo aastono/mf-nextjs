@@ -1,6 +1,8 @@
+import styles from '../styles/Home.module.css'
+
 const CoreComponent = () => {
   return (
-    <main>
+    <main className={styles.main}>
       I am core!
     </main>
   )
