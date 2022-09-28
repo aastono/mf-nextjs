@@ -3,9 +3,6 @@ const {
 } = require("@module-federation/nextjs-mf");
 module.exports = {
   future: { webpack5: true },
-  images: {
-    domains: ['upload.wikimedia.org'],
-  },
   webpack: (config, options) => {
     const { isServer } = options;
     const mfConf = {
@@ -32,8 +29,6 @@ module.exports = {
   },
 
   webpackDevMiddleware: (config) => {
-    // Perform customizations to webpack dev middleware config
-    // Important: return the modified config
     return config;
   },
 };

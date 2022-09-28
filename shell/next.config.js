@@ -18,8 +18,6 @@ module.exports = {
         core: "core",
         pro: "pro", 
       },
-      exposes: {
-      },
     };
     config.cache = false;
     withModuleFederation(config, options, mfConf);
